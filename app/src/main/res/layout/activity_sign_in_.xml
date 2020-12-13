@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login.SignIn_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:layout_margin="10dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="Tiếng Việt"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="Tiếng Anh"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="20dp"/>
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="142dp"
+                    android:layout_gravity="center"
+                   android:layout_margin="40dp"
+                    android:padding="8dp"
+                    app:srcCompat="@drawable/daikin_logo_1"
+                    />
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/ns"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="XIN CHÀO"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15dp" />
+                    <EditText
+
+                        android:id="@+id/edtEmail"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:hint=" Nhập số điện thoại"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textSize="15dp"
+                        android:background="@drawable/background_edittext"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Chúng tôi sẽ gửi mã xác thực tài khoản đến số điện thoại này"
+
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/btn_signin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/btn_gradient"
+                    android:text="Tiếp tục"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:textColor="#FAF6F6"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:drawableRight="@drawable/next1"/>
+
+
+
+
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Bằng cách nhấn nut 'Tiếp tuc', bạn đã đồng ý với Điều Khoản Sử Dụng ch=ủa DAIKIN Việt Nam "
+
+                android:textSize="12dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bản quyền 2019. DAIKIN Viet Nam."
+                    android:textColor="#000"
+                    android:textSize="12dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/bq"
+                    android:layout_below="@+id/logo"
+                    android:gravity="center"
+                    android:layout_marginTop="170dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

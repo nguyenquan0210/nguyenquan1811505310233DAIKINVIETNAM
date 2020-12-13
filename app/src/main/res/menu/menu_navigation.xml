@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/menudaikin"
+        android:title="Home"/>
+    <item android:id="@+id/nav_donhang"
+        android:icon="@drawable/donhangdaikin"
+        android:title="Đơn hàng"/>
+    <item android:id="@+id/nav_thietbi"
+        android:icon="@drawable/thietbi"
+        android:title="Thiết bị"/>
+    <item android:id="@+id/nav_thongbao"
+        android:icon="@drawable/thongbaodaikin"
+        android:title="Thông báo"/>
+    <item android:id="@+id/nav_taikhoan"
+        android:icon="@drawable/taikhoan"
+        android:title="Tài khoản"/>
+</menu>

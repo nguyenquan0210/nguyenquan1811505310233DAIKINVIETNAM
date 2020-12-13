@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Splash"
+    >
+    <LinearLayout
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+    <ImageView
+        app:srcCompat="@drawable/daikin_logo_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+
+
+         />
+
+
+    </LinearLayout>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Bản quyền 2019. DAIKIN Viet Nam."
+    android:textColor="#000"
+    android:textSize="12dp"
+    android:layout_marginBottom="20dp"
+    android:id="@+id/bq"
+        android:layout_below="@+id/logo"
+        android:gravity="center"/>
+    <TextView
+        android:layout_below="@+id/bq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DAIKIN VIETNAM 1.2.9(40)"
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:gravity="center"/>
+</RelativeLayout>
